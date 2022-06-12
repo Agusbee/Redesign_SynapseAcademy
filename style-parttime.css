@@ -1,0 +1,363 @@
+.navbar {
+  background-color: #ffff;
+  padding: 16px 0;
+}
+
+/* SEC BANNER */
+
+#Banner {
+  margin-top: 80px;
+}
+
+#Banner .bg-banner {
+  background-image: url(./Assets/class/fullstack1/hero-img.svg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-position: center;
+}
+
+#Banner .bg-banner .body-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 250px;
+}
+
+#Banner .bg-banner .body-text p {
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/* SEC BANNER */
+
+/* SEC KURIKULUM */
+
+#Kurikulum .container {
+  padding: 100px 12px;
+}
+
+.kurikulum-kelas .heading-text {
+  margin-bottom: 50px;
+}
+
+.kurikulum-kelas .heading-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.kurikulum-kelas .heading-text h1 span {
+  color: #2f8cff;
+}
+
+.card-kurikulum {
+  border: 1px solid #f0f0f0;
+  padding: 40px;
+  font-family: 'Poppins';
+  margin: 12px;
+  border-radius: 24px;
+}
+
+.card-kurikulum .kurikulum-ictext {
+  margin-bottom: 24px;
+}
+
+.card-kurikulum .kurikulum-img img {
+  width: 50px;
+  margin-right: 16px;
+}
+
+.card-kurikulum .kurikulum-text p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.card-kurikulum p {
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
+/* SEC KURIKULUM */
+
+/* SEC BATCH */
+
+#Batch .container {
+  padding-bottom: 100px;
+}
+
+#Batch .bacth-left h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+#Batch .bacth-left h1 span {
+  color: #2f8cff;
+}
+
+#Batch .bacth-left img {
+  margin-bottom: 50px;
+}
+
+#Batch .bacth-left P {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+#Batch .bacth-right .syarat {
+  background-color: #2f8cff;
+  border-radius: 32px;
+  padding: 40px;
+  width: 500px;
+  color: white;
+  font-family: 'Poppins';
+}
+
+#Batch .bacth-right .syarat .syarat-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#Batch .bacth-right .syarat p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+#Batch .bacth-right .syarat p span {
+  font-weight: 500;
+}
+
+/* SEC BATCH */
+
+/* SEC BIAYA */
+
+#Biaya .container {
+  padding-bottom: 100px;
+}
+
+.biaya-kelas .heading-text {
+  padding-bottom: 50px;
+}
+
+.biaya-kelas .heading-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.biaya-kelas .heading-text h1 span {
+  color: #2f8cff;
+}
+
+.card-biaya {
+  border: 1px solid #f0f0f0;
+  padding: 40px;
+  font-family: 'Poppins';
+  border-radius: 24px;
+  margin: 12px 24px;
+}
+
+.card-biaya .biaya-text .text-pen {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-bottom: 8px;
+}
+
+.card-biaya .biaya-text .text-pen2 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.card-biaya .biaya-img img {
+  width: 80px;
+  margin-right: 24px;
+}
+
+.card-biaya .biaya-text .text-main {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.biaya-kelas .btn-cta {
+  padding: 24px 70px;
+  border-radius: 14px;
+  background-color: #2f8cff;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Poppins';
+  transition: 0.3s;
+  margin-top: 50px;
+}
+
+.biaya-kelas .btn-cta:hover {
+  background-color: #2a79da;
+}
+
+/* SEC BIAYA */
+
+/* SEC FOOTER */
+
+#Footer {
+  background-color: #222222;
+}
+
+#Footer .footer-body {
+  padding: 70px 0;
+}
+
+#Footer .footer-body h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+#Footer .footer-body a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: 300;
+  display: flex;
+  transition: 0.5s;
+}
+
+#Footer .footer-body .menu-ic {
+  margin-top: -10px;
+}
+
+#Footer .footer-body a > p {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+#Footer .footer-body a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #171717;
+  padding: 25px 0 5px 0;
+}
+
+.copyright p {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* SEC FOOTER */
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  * h1 {
+    font-size: 32px !important;
+    line-height: 110% !important;
+  }
+
+  * h1 br {
+    display: none !important;
+  }
+
+  .footer-body h4 {
+    margin-top: 24px;
+    margin-bottom: 16px !important;
+  }
+
+  .footer-logo img {
+    margin-bottom: 24px;
+  }
+
+  #Banner .bg-banner {
+    height: 500px !important;
+  }
+
+  #Banner .bg-banner h1 {
+    padding-top: 100px !important;
+  }
+
+  .card-biaya {
+    padding: 24px !important;
+  }
+
+  .biaya-ictext {
+    display: block !important;
+  }
+
+  .biaya-img {
+    margin-bottom: 24px;
+  }
+
+  .bg-banner h1 {
+    margin-top: 50px !important;
+  }
+
+  .bg-banner {
+    height: 500px !important;
+  }
+
+  #Kurikulum .container {
+    padding: 50px 12px !important;
+  }
+
+  .syarat {
+    padding: 24px !important;
+    margin-top: 24px;
+  }
+
+  .card-kurikulum {
+    padding: 24px !important;
+  }
+
+  #Batch hr {
+    margin-bottom: 50px !important ;
+  }
+
+  #Batch .container {
+    padding-bottom: 50px !important;
+  }
+
+  .biaya-kelas {
+    padding: 50px 12px !important;
+  }
+
+  .biaya-kelas .btn-cta {
+    padding: 16px 40px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+/* RESPONSIVE */

@@ -1,0 +1,334 @@
+.navbar {
+  background-color: #ffff;
+  padding: 16px 0;
+}
+
+/* SEC BANNER */
+
+#Banner {
+  margin-top: 80px;
+}
+
+#Banner .bg-banner {
+  background-image: url(./Assets/class/fullstack1/hero-img.svg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-position: center;
+}
+
+#Banner .bg-banner .body-text h1 {
+  padding-top: 200px;
+  font-family: 'Plus Jakarta Display';
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#Banner .bg-banner .body-text p {
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#Banner .bg-banner .body-text .btn-cta {
+  padding: 24px 60px;
+  border-radius: 14px;
+  background-color: #f16634;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Poppins';
+  transition: 0.3s;
+  margin-top: 60px;
+}
+
+#Banner .bg-banner .body-text .btn-cta:hover {
+  background-color: #c44c20;
+}
+
+/* SEC BANNER */
+
+/* SEC BELAJAR */
+
+#Belajar .container {
+  padding: 100px 12px;
+}
+
+.sec-belajar .belajar-title h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 50px;
+}
+
+.sec-belajar .belajar-title h1 span {
+  color: #2f8cff;
+}
+
+.belajar-point {
+  margin-bottom: 24px;
+}
+
+.belajar-point .belajar-img img {
+  width: 50px;
+  margin-right: 16px;
+}
+
+.belajar-point .belajar-text p {
+  margin: 0;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* SEC BELAJAR */
+
+/* SEC UNGGULAN */
+
+#Unggulan .container {
+  padding-bottom: 100px;
+}
+
+.ug-card img {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.ug-card h5 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.ug-card p {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+/* SEC UNGGULAN */
+
+/* SEC PROGRAM KELAS */
+
+#Fullstack .container {
+  padding-bottom: 100px;
+}
+
+.fullstack-kelas .heading-text {
+  margin-bottom: 50px;
+}
+
+.fullstack-kelas .heading-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.fullstack-kelas .heading-text h1 span {
+  color: #2f8cff;
+}
+
+.pilih-kelas {
+  margin-top: 50px;
+}
+
+.card-fullstack {
+  border: 1px solid #f0f0f0;
+  padding: 40px;
+  font-family: 'Poppins';
+  margin: 12px;
+  border-radius: 24px;
+}
+
+.card-fullstack .fullstack-ictext {
+  margin-bottom: 24px;
+}
+
+.card-fullstack .fullstack-img img {
+  width: 50px;
+  margin-right: 16px;
+}
+
+.card-fullstack .fullstack-text p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.card-fullstack p {
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
+.card-fullstack a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  width: 200px;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-kelas-green {
+  background-color: #41d67a;
+}
+
+.btn-kelas-green:hover {
+  background-color: #32bd67;
+  color: white;
+}
+
+.btn-kelas-red {
+  background-color: #ff814b;
+}
+
+.btn-kelas-red:hover {
+  background-color: #d36c40;
+  color: white;
+}
+
+/* SEC PROGRAM KELAS */
+
+/* SEC FOOTER */
+
+#Footer {
+  background-color: #222222;
+}
+
+#Footer .footer-body {
+  padding: 70px 0;
+}
+
+#Footer .footer-body h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+#Footer .footer-body a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: 300;
+  display: flex;
+  transition: 0.5s;
+}
+
+#Footer .footer-body .menu-ic {
+  margin-top: -10px;
+}
+
+#Footer .footer-body a > p {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+#Footer .footer-body a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #171717;
+  padding: 25px 0 5px 0;
+}
+
+.copyright p {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* SEC FOOTER */
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  * h1 {
+    font-size: 32px !important;
+    line-height: 110% !important;
+  }
+
+  * h1 br {
+    display: none !important;
+  }
+
+  .footer-body h4 {
+    margin-top: 24px;
+    margin-bottom: 16px !important;
+  }
+
+  .footer-logo img {
+    margin-bottom: 24px;
+  }
+
+  #Banner .bg-banner {
+    height: 500px !important;
+  }
+
+  #Banner .bg-banner h1 {
+    padding-top: 100px !important;
+  }
+
+  #Belajar .container {
+    padding: 50px 12px;
+  }
+
+  #Unggulan .container {
+    padding: 0 12px 50px 12px;
+  }
+
+  hr {
+    margin-bottom: 50px !important;
+  }
+
+  .heading-text {
+    margin-bottom: 0 !important;
+  }
+
+  .card-fullstack {
+    padding: 24px;
+  }
+
+  #Fullstack .container {
+    padding: 50px 12px;
+  }
+
+  .fullstack-kelas {
+    padding: 0 12px 50px 12px !important;
+  }
+
+  .ug-card {
+    padding-bottom: 24px;
+  }
+
+  .ug-card p {
+    margin-bottom: 0;
+  }
+
+  .btn-cta {
+    padding: 16px 40px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+}
+
+/* RESPONSIVE */

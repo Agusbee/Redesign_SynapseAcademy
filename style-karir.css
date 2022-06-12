@@ -1,0 +1,256 @@
+.navbar {
+  background-color: #ffff;
+  padding: 16px 0;
+}
+
+/* SEC BANNER */
+
+#Banner {
+  margin-top: 80px;
+}
+
+#Banner .bg-banner {
+  background: linear-gradient(257.29deg, #2f8cff 5.46%, #0060d8 99.22%);
+  width: 100%;
+  height: auto;
+}
+
+.bg-banner {
+  padding: 100px 0;
+}
+
+.bg-banner .sec-left .text-top {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Display';
+}
+
+.bg-banner .sec-left h1 {
+  color: white;
+  font-size: 64px;
+  line-height: 110%;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: 'Plus Jakarta Display';
+}
+
+/* SEC BANNER */
+
+/* SEC DESKRIPSI */
+
+#Deskripsi .container {
+  padding: 100px 12px;
+}
+
+#Deskripsi .text-deskripsi-left h1 {
+  font-family: 'Plus Jakarta Display';
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+#Deskripsi .text-deskripsi-left h1 span {
+  color: #2f8cff;
+}
+
+#Deskripsi .text-deskripsi-right p {
+  color: #b0b0b0;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  font-family: 'Poppins';
+}
+
+/* SEC DESKRIPSI */
+
+/* SEC JOIN */
+
+#Join {
+  padding-bottom: 100px;
+}
+
+.heading-join h1 {
+  margin-bottom: 100px;
+  font-family: 'Plus Jakarta Display';
+  font-size: 64px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.heading-join h1 span {
+  color: #2f8cff;
+}
+
+.title-job h4 {
+  font-family: 'Poppins';
+  font-size: 24px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.title-job h4 span {
+  color: #2f8cff;
+}
+
+.title-job p {
+  margin-top: 24px;
+  color: #b0b0b0;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+.card-email a {
+  border: 1px solid #29cb8b;
+  padding: 40px;
+  /* width: 350px;
+  height: 150px; */
+  text-decoration: none;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.email p {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  color: #29cb8b;
+}
+
+.card-email a:hover {
+  background-color: #29cb8b;
+  padding: 40px;
+  text-decoration: none;
+  border-radius: 16px;
+}
+
+.card-email a:hover .email p {
+  color: white;
+}
+
+.email .first {
+  margin-bottom: 16px;
+}
+
+/* SEC JOIN */
+
+/* SEC FOOTER */
+
+#Footer {
+  background-color: #222222;
+}
+
+#Footer .footer-body {
+  padding: 70px 0;
+}
+
+#Footer .footer-body h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+#Footer .footer-body a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: 300;
+  display: flex;
+  transition: 0.5s;
+}
+
+#Footer .footer-body .menu-ic {
+  margin-top: -10px;
+}
+
+#Footer .footer-body a > p {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+#Footer .footer-body a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #171717;
+  padding: 25px 0 5px 0;
+}
+
+.copyright p {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* SEC FOOTER */
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  * h1 {
+    font-size: 32px !important;
+    line-height: 110% !important;
+  }
+
+  * h1 br {
+    display: none !important;
+  }
+
+  .footer-body h4 {
+    margin-top: 24px;
+    margin-bottom: 16px !important;
+  }
+
+  .footer-logo img {
+    margin-bottom: 24px;
+  }
+
+  #Join p {
+    font-size: 16px;
+  }
+
+  .title-job {
+    margin-bottom: 24px;
+  }
+
+  .card-email a {
+    padding: 24px !important;
+  }
+
+  .card-email {
+    justify-content: start !important;
+  }
+
+  #Deskripsi .container {
+    padding: 50px 12px;
+  }
+
+  .heading-join h1 {
+    margin-bottom: 50px !important;
+  }
+
+  .title-job h4 {
+    font-size: 20px !important;
+  }
+
+  .bg-banner {
+    padding: 50px 0;
+  }
+
+  #Join {
+    padding-bottom: 50px !important;
+  }
+}
+
+/* RESPONSIVE */

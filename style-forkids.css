@@ -1,0 +1,554 @@
+.navbar {
+  background-color: #ffff;
+  padding: 16px 0;
+}
+
+/* SEC BANNER */
+
+#Banner {
+  margin-top: 80px;
+}
+
+#Banner .bg-banner {
+  background: linear-gradient(257.29deg, #2f8cff 5.46%, #0060d8 99.22%);
+  width: 100%;
+  height: auto;
+}
+
+.bg-banner {
+  padding: 100px 0;
+}
+
+.bg-banner .sec-right img {
+  width: 100%;
+}
+
+.bg-banner .sec-left .text-top {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Display';
+}
+
+.bg-banner .sec-left h1 {
+  color: white;
+  font-size: 64px;
+  line-height: 95%;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: 'Plus Jakarta Display';
+}
+
+.bg-banner .sec-left .text-desk {
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.bg-banner .sec-left .btn-cta {
+  width: 200px;
+  height: 65px;
+  border-radius: 14px;
+  background-color: #f16634;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 60px;
+  font-family: 'Poppins';
+  transition: 0.3s;
+}
+
+.bg-banner .sec-left .btn-cta:hover {
+  background-color: #c44c20;
+}
+
+.bg-banner .sec-left .selengkapnya {
+  color: white;
+  margin-right: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Poppins';
+}
+
+/* SEC BANNER */
+
+/* SEC PERTAMA */
+
+#Secper .container {
+  padding: 100px 12px;
+}
+
+.secper-img {
+  overflow: hidden;
+}
+
+.secper-img img {
+  width: 100%;
+}
+
+#Secper .secper-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+#Secper .secper-text h1 span {
+  color: #2f8cff;
+}
+
+#Secper .secper-text p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #b0b0b0;
+  margin-top: 50px;
+}
+
+/* SEC PERTAMA */
+
+/* SEC KEDUA */
+
+#Seckedua .container {
+  padding-bottom: 100px;
+}
+
+.seckedua-img img {
+  width: 100%;
+}
+
+#Seckedua .seckedua-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+#Seckedua .seckedua-text h1 span {
+  color: #2f8cff;
+}
+
+#Seckedua .seckedua-text p {
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #333333;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+/* SEC KEDUA */
+
+/* SEC KETIGA */
+
+#Secketiga .container {
+  padding-bottom: 100px;
+}
+
+#Secketiga .sectiga-left .text-top {
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #2f8cff;
+  letter-spacing: 0.25em;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+#Secketiga .sectiga-left h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+#Secketiga .sectiga-left h1 span {
+  color: #2f8cff;
+}
+
+#Secketiga .sectiga-left .text-bot {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #b0b0b0;
+  margin-top: 50px;
+}
+
+#Secketiga .sectiga-right .syarat {
+  background-color: #2f8cff;
+  border-radius: 32px;
+  padding: 40px;
+  color: white;
+  font-family: 'Poppins';
+}
+
+#Secketiga .sectiga-right .syarat p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+#Secketiga .sectiga-right .syarat ul li {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px;
+}
+
+/* SEC KETIGA */
+
+/* SEC TESTIMONIAL */
+
+#Testimonial {
+  padding-bottom: 100px 0;
+  overflow: hidden;
+}
+
+#Testimonial .text-testi h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#Testimonial .text-testi h1 span {
+  color: #2f8cff;
+}
+
+#Testimonial .single-box {
+  padding: 40px 24px;
+  border-radius: 24px;
+  border: 1px solid #f0f0f0;
+  margin: 25px;
+  min-height: 250px;
+}
+
+#Testimonial .img-area {
+  margin: 45px 0 20px;
+}
+
+#Testimonial .single-box img {
+  max-width: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#Testimonial .single-box h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+}
+
+#Testimonial .single-box h6 {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+#Testimonial .single-box {
+  overflow: hidden;
+}
+
+#Testimonial .single-box .image-area {
+  width: 30%;
+  float: left;
+  margin: 0;
+}
+
+#Testimonial .single-box .content {
+  width: 70%;
+  float: right;
+  padding-left: 10px;
+}
+
+#Testimonial .single-box p {
+  margin-bottom: 24px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #333333;
+}
+
+.clients-carousel .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.clients-carousel .owl-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ddd !important;
+  display: inline-block;
+  margin: 0 6px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.clients-carousel .owl-dot.active {
+  background-color: #2f8cff !important;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .testimonial {
+    padding: 70px 0 130px !important;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 359px) {
+  .testimonial {
+    padding: 0 0 100px 0 !important;
+  }
+  .single-box {
+    padding: 40px 8 !important;
+  }
+  .single-box .image-area {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 24px !important;
+  }
+  .single-box .content {
+    width: 100% !important;
+    float: none !important;
+  }
+}
+
+/* SEC TESTIMONIAL */
+
+/* SEC PROGRAM KELAS */
+
+#Program .container {
+  padding-bottom: 100px;
+}
+
+.program-kelas .heading-text {
+  margin-bottom: 50px;
+}
+
+.program-kelas .heading-text h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.program-kelas .heading-text h1 span {
+  color: #2f8cff;
+}
+
+.program-kelas a {
+  text-decoration: none;
+}
+
+.program-kelas .card-program {
+  border: 1px solid #f0f0f0;
+  border-radius: 24px;
+  padding: 40px;
+  transition: 0.5s;
+  min-height: 300px;
+}
+
+.program-kelas .card-program:hover {
+  background-color: #2f8cff;
+}
+
+.program-kelas .card-program:hover p {
+  color: white;
+}
+
+.program-kelas .card-program:hover .title-program-kelas p {
+  color: white;
+}
+
+.program-kelas .card-program .title-program-kelas p {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.program-kelas .card-program .title-program-kelas .hrg {
+  color: #2f8cff;
+}
+
+.text-program-kelas .text-pk p {
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-left: 16px;
+  font-weight: 300;
+}
+
+/* SEC PROGRAM KELAS */
+
+/* SEC PELAKSANAAN */
+
+#Pelaksanaan .container {
+  padding-bottom: 100px;
+}
+
+#Pelaksanaan .pel-left h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+#Pelaksanaan .pel-left img {
+  margin-bottom: 50px;
+}
+
+#Pelaksanaan .pel-left h5 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+#Pelaksanaan .pel-left p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 300;
+  color: #b0b0b0;
+  margin-bottom: 24px;
+}
+
+#Pelaksanaan .pel-right .benefit {
+  background-color: #2f8cff;
+  border-radius: 32px;
+  padding: 40px;
+  color: white;
+  font-family: 'Poppins';
+}
+
+.pel-right .benefit .ic-text img {
+  width: 24px;
+  margin-right: 16px;
+}
+
+#Pelaksanaan .pel-right .benefit p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+#Pelaksanaan .pel-right .benefit ul li {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px;
+}
+
+/* SEC PELAKSANAAN */
+
+/* SEC FOOTER */
+
+#Footer {
+  background-color: #222222;
+}
+
+#Footer .footer-body {
+  padding: 70px 0;
+}
+
+#Footer .footer-body h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+#Footer .footer-body a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: 300;
+  display: flex;
+  transition: 0.5s;
+}
+
+#Footer .footer-body .menu-ic {
+  margin-top: -10px;
+}
+
+#Footer .footer-body a > p {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+#Footer .footer-body a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #171717;
+  padding: 25px 0 5px 0;
+}
+
+.copyright p {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* SEC FOOTER */
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  * h1 {
+    font-size: 32px !important;
+    line-height: 110% !important;
+  }
+
+  * h1 br {
+    display: none !important;
+  }
+
+  .footer-body h4 {
+    margin-top: 24px;
+    margin-bottom: 16px !important;
+  }
+
+  .footer-logo img {
+    margin-bottom: 24px;
+  }
+
+  .sec-left .btn-cta {
+    margin-bottom: 16px !important;
+  }
+
+  .sec-left {
+    margin-bottom: 40px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #Secper .container {
+    padding: 50px 12px;
+  }
+
+  .syarat {
+    padding: 24px !important;
+  }
+}
+
+/* RESPONSIVE */

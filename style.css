@@ -1,0 +1,722 @@
+.navbar {
+  background-color: #ffff;
+  padding: 16px 0;
+}
+
+/* SEC BANNER */
+
+#Banner {
+  margin-top: 80px;
+}
+
+#Banner .bg-banner {
+  background: linear-gradient(257.29deg, #2f8cff 5.46%, #0060d8 99.22%);
+  width: 100%;
+  height: auto;
+}
+
+.bg-banner {
+  padding: 100px 0;
+}
+
+.bg-banner .sec-left .text-top {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Display';
+}
+
+.bg-banner .sec-left h1 {
+  color: white;
+  font-size: 64px;
+  line-height: 95%;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: 'Plus Jakarta Display';
+}
+
+.bg-banner .sec-left h1 span {
+  color: #01e780;
+}
+
+.bg-banner .sec-left .text-desk {
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.bg-banner .sec-left .btn-cta {
+  width: 200px;
+  height: 65px;
+  border-radius: 14px;
+  background-color: #f16634;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 60px;
+  /* margin-bottom: 24px; */
+  font-family: 'Poppins';
+  transition: 0.3s;
+}
+
+.bg-banner .sec-left .btn-cta:hover {
+  background-color: #c44c20;
+}
+
+.bg-banner .sec-left .selengkapnya {
+  color: white;
+  margin-right: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Poppins';
+}
+
+.bg-banner .sec-right img {
+  width: 100%;
+}
+
+/* SEC BANNER */
+
+/* SEC ALASAN */
+
+#Alasan .container {
+  padding: 100px 12px;
+}
+
+#Alasan .title-alasan {
+  margin-bottom: 100px;
+}
+
+#Alasan .title-alasan h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Plus Jakarta Display';
+  line-height: 140%;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+#Alasan .title-alasan h1 span {
+  color: #2f8cff;
+}
+
+#Alasan .line {
+  width: 100px;
+}
+
+#Alasan .point .icon-img {
+  margin-right: 16px;
+}
+
+#Alasan .point .icon-img img {
+  padding: 20px;
+  background-color: #c5dfff;
+  border-radius: 24px;
+}
+
+#Alasan .point .text-alasan p {
+  font-family: 'Poppins';
+}
+
+#Alasan .point .text-alasan .text-alasan-satu {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+#Alasan .point .text-alasan .text-alasan-dua {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b0b0b0;
+}
+
+/* SEC ALASAN */
+
+/* SEC PROGRAM */
+
+#Program {
+  background-color: #2f8cff;
+}
+
+#Program .container {
+  position: relative;
+  padding: 100px 12px;
+}
+
+#Program .container .dot1 {
+  position: absolute;
+  width: 50px;
+  right: 0;
+  top: -55px;
+}
+
+#Program .dot2 {
+  position: absolute;
+  width: 125px;
+  bottom: -25px;
+}
+
+#Program .text-program-left h1 {
+  font-family: 'Plus Jakarta Display';
+  color: white;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+#Program .text-program-left img {
+  margin-bottom: 24px;
+}
+
+#Program .text-program-right p {
+  color: white;
+  width: 400px;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  font-family: 'Poppins';
+}
+
+#Program .program {
+  margin-top: 100px;
+}
+
+#Program .program .card-program {
+  background-color: white;
+  padding: 0;
+  height: 500px;
+  border-radius: 24px;
+  position: relative;
+  transition: 0.3s;
+}
+
+#Program .program .card-program:hover {
+  transform: translateY(-3%);
+}
+
+#Program .program .card-program img {
+  object-fit: cover;
+  width: 100%;
+  height: 231px;
+  border-radius: 24px 24px 0 0;
+}
+
+#Program .program .card-content {
+  padding: 24px;
+}
+
+#Program .program .card-content .card-text1 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  margin-bottom: 16px;
+}
+
+#Program .program .card-content .card-text2 {
+  /* font-family: 'Poppins'; */
+  font-size: 16px;
+  font-weight: 400;
+  color: #b0b0b0;
+}
+
+#Program .program .card-content .btn-card {
+  background-color: #2f8cff;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 24px;
+  padding: 16px 32px;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+#Program .program .card-content .btn-card:hover {
+  background-color: #1b69c9;
+}
+
+/* SEC PROGRAM */
+
+/* SEC MANFAAT */
+
+#Manfaat .container {
+  padding: 100px 12px;
+}
+
+#Manfaat .sec-manfaat .manfaat-img img {
+  width: 100%;
+}
+
+#Manfaat .sec-manfaat .manfaat-list h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 50px;
+}
+
+#Manfaat .sec-manfaat .manfaat-list h1 span {
+  color: #2f8cff;
+}
+
+#Manfaat .sec-manfaat .manfaat-point {
+  margin-bottom: 16px;
+}
+
+#Manfaat .sec-manfaat .manfaat-point img {
+  width: 50px;
+  margin-right: 16px;
+}
+
+#Manfaat .sec-manfaat .manfaat-point p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* SEC MANFAAT */
+
+/* SEC PARTNER */
+
+#Partner .container {
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+#Partner .title-partner h1 {
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 95%;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+#Partner .title-partner p {
+  font-family: 'Poppins';
+  color: #b0b0b0;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+
+#Partner .logo-partner .slider {
+  height: 80px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+#Partner .logo-partner .slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 10);
+}
+
+#Partner .logo-partner .slider .slide {
+  height: 80px;
+  width: 250px;
+  margin: 0 20px;
+}
+
+/* SEC PARTNER */
+
+/* SEC KEGIATAN */
+
+#Kegiatan .container {
+  padding-bottom: 100px;
+}
+
+#Kegiatan .title-kegiatan h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+#Kegiatan .title-kegiatan h1 span {
+  color: #2f8cff;
+}
+
+#Kegiatan .title-kegiatan img {
+  width: 100px;
+}
+
+#Kegiatan .list-kegiatan {
+  margin-top: 100px;
+}
+
+#Kegiatan .card-kegiatan img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+#Kegiatan .card-kegiatan p {
+  margin-top: 16px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #2f8cff;
+  font-weight: 500;
+}
+
+#Kegiatan .card-kegiatan a {
+  text-decoration: none;
+}
+
+#Kegiatan .card-kegiatan h3 {
+  font-family: 'Poppins';
+  font-size: 24px;
+  color: #333333;
+  font-weight: 600;
+}
+
+#Kegiatan .card-kegiatan h3:hover {
+  color: #0060d8;
+}
+
+/* SEC KEGIATAN */
+
+/* SEC SUBS */
+
+#Subs .container {
+  padding-bottom: 100px;
+}
+
+#Subs .subs-body {
+  padding: 40px;
+  border: 1px solid #f0f0f0;
+  border-radius: 24px;
+  margin: 0 12px;
+}
+
+.subs-body .subs-img img {
+  width: 100%;
+}
+
+#Subs .subs-text h5 {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 0 16px 0;
+}
+
+#Subs .subs-text p {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+  color: #b0b0b0;
+  margin-bottom: 40px;
+}
+
+#Subs .subs-text input {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+#Subs .subs-text input[type='text'] {
+  border: 1px solid #f0f0f0;
+  padding: 0 16px;
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
+  outline: none;
+}
+
+#Subs .subs-text input[type='submit'] {
+  border-radius: 12px;
+  height: 60px;
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Poppins';
+  background-color: #2f8cff;
+  border: none;
+  outline: none;
+  margin-top: 16px;
+}
+
+#Subs .subs-text input[type='submit']:hover {
+  background-color: #1b69c9;
+}
+
+#Subs .subs-text input[placeholder] {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+/* SEC SUBS */
+
+/* SEC ALUMNI */
+
+#Alumni .container {
+  padding-bottom: 100px;
+}
+
+.text-alumni h1 {
+  font-family: 'Plus Jakarta Display';
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.text-alumni h1 span {
+  color: #2f8cff;
+}
+
+#Alumni .video-alumni {
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+}
+
+/* SEC ALUMNI */
+
+/* WHATSAPP */
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 24px;
+  right: 24px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: 0.2s;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #20bd59;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+/* WHATSAPP */
+
+/* SEC FOOTER */
+
+#Footer {
+  background-color: #222222;
+}
+
+#Footer .footer-body {
+  padding: 70px 0;
+}
+
+#Footer .footer-body h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+#Footer .footer-body a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: 300;
+  display: flex;
+  transition: 0.5s;
+}
+
+#Footer .footer-body .menu-ic {
+  margin-top: -10px;
+}
+
+#Footer .footer-body a > p {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+#Footer .footer-body a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #171717;
+  padding: 25px 0 5px 0;
+}
+
+.copyright p {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* SEC FOOTER */
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .bg-banner .text-top {
+    font-size: 14px !important;
+  }
+
+  * h1 {
+    font-size: 32px !important;
+    line-height: 110% !important;
+  }
+
+  .sec-left h1 {
+    font-size: 48px !important;
+  }
+
+  * h1 br {
+    display: none !important;
+  }
+
+  .sec-left .btn-cta {
+    margin-bottom: 16px !important;
+  }
+
+  .sec-left {
+    margin-bottom: 40px !important;
+  }
+
+  .satu {
+    display: block !important;
+  }
+
+  .icon-img img {
+    padding: 16px !important;
+    margin-bottom: 16px;
+  }
+
+  .dot1 {
+    right: 12px !important;
+  }
+
+  .btn-cta {
+    padding: 16px 40px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+
+  .manfaat-point img {
+    width: 40px !important;
+  }
+
+  .manfaat-point p {
+    font-size: 14px !important;
+  }
+
+  .manfaat-img img {
+    margin-top: 24px !important;
+  }
+
+  .title-alasan br {
+    display: none !important;
+  }
+
+  .card-kegiatan h3 {
+    font-size: 20px !important;
+  }
+
+  .card-kegiatan p {
+    margin: 8px 0 !important;
+  }
+
+  .subs-body {
+    padding: 24px !important;
+  }
+
+  .subs-text {
+    padding: 0 !important;
+  }
+
+  .subs-img img {
+    display: none;
+  }
+
+  .footer-body h4 {
+    margin-top: 24px;
+    margin-bottom: 16px !important;
+  }
+
+  .footer-logo img {
+    margin-bottom: 24px;
+  }
+
+  #Alasan .container {
+    padding: 50px 12px 100px 12px !important;
+  }
+
+  .title-alasan {
+    margin-bottom: 50px !important;
+  }
+
+  #Manfaat .container {
+    padding: 50px 12px !important;
+  }
+
+  #Partner .container hr {
+    margin-bottom: 50px !important;
+  }
+
+  #Kegiatan .container {
+    padding-bottom: 50px !important;
+  }
+
+  .list-kegiatan {
+    margin-top: 50px !important;
+  }
+
+  #Subs .container {
+    padding-bottom: 50px !important;
+  }
+
+  .float {
+    width: 48px;
+    height: 48px;
+    bottom: 24px;
+    right: 24px;
+    font-size: 24px;
+  }
+
+  .my-float {
+    margin-top: 12px;
+  }
+}
+
+/* RESPONSIVE */
